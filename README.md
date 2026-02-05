@@ -64,6 +64,12 @@ npm start
 * **Real-Time Safety Monitoring**: Review the **Detailed Equipment Log**; hazardous temperatures exceeding **115°C** (e.g., Reactor-1 at 140°C) are automatically highlighted in bold red.
 
 * **Persistent History Tracking**: The sidebar manages the **last 5 datasets** using a local **SQLite** database, allowing you to switch between recent reports instantly.
+  
+* * **Advanced Diagnostics**:Review the diagnostics section for automated alerts. The system uses real-time logic to identify operational risks:
+
+    * **High Pressure**: Alerts triggered when equipment exceeds safe PSI thresholds.
+    * **Excessive Thermal Load**: Identifies units operating near or above critical temperature limits.
+
 
 * **Export Summary Reports**: Use the **"Generate PDF Report"** button to export a summarized text analysis of your current findings.
 
